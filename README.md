@@ -33,7 +33,7 @@ small, real dataset.
 | Source | Role | Access |
 |---|---|---|
 | The Movie Database (TMDb) | Catalogue of ~200 popular films with budget, revenue, runtime, genres, and production countries | REST API, requires a free API key |
-| REST Countries | Demographic context (region, sub-region, population, area) for every ISO-3166 country code | REST API, no authentication |
+| REST Countries | Demographic context (region, sub-region, population) for every ISO-3166 country code | REST API, no authentication |
 | Google News RSS | Recent news headlines for the top ten films, used as raw material for sentiment analysis | RSS feed, parsed with BeautifulSoup |
 
 ---
