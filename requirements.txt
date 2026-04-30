@@ -1,0 +1,29 @@
+# Data Engineering project - Predicting Commercial Success in Contemporary Cinema
+# Tested with Python 3.11 on Google Colab.
+
+# ----- Core data stack ----------------------------------------------------
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+
+# ----- Ingestion ----------------------------------------------------------
+requests>=2.31
+beautifulsoup4>=4.12
+feedparser>=6.0
+lxml>=4.9
+
+# ----- Distributed computing ----------------------------------------------
+pyspark>=3.5
+py4j>=0.10.9
+
+# ----- Graph analytics ----------------------------------------------------
+networkx>=3.1
+
+# ----- Natural language processing ----------------------------------------
+transformers>=4.40
+torch>=2.1
+
+# ----- Notebook environment -----------------------------------------------
+jupyter>=1.0
+ipykernel>=6.0
+

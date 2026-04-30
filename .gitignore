@@ -1,0 +1,95 @@
+# Minimal-repo gitignore.
+# Only these files end up on GitHub:
+#   - README.md
+#   - DE_Project_Movie_Success.ipynb
+#   - requirements.txt
+#   - figures/*.png
+# Everything else stays local.
+
+# --- Secrets (never commit) -------------------------------------------
+.env
+.env.*
+*.key
+secrets.json
+tmdb_key.txt
+
+# --- Python -----------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# --- Jupyter ----------------------------------------------------------
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Spark and HuggingFace caches -------------------------------------
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+.cache/
+.huggingface/
+.streamlit/
+
+# --- IDEs and editors -------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.claude/
+
+# --- Office lock files ------------------------------------------------
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# --- Generated / regeneratable artefacts ------------------------------
+movies.db
+*.sqlite
+*.sqlite3
+figures/tmdb_cache.json
+figures/tmdb_cache.parquet
+figures/notebook/
+
+# --- Generator scripts (scaffolding, not the deliverable) -------------
+create_report.py
+create_report_academic.py
+create_presentation.py
+create_presentation_academic.py
+generate_figures.py
+generate_real_figures.py
+patch_notebook.py
+
+# --- Documentation kept locally only ----------------------------------
+RUN_NOTEBOOK.md
+GIT_COMMIT_PLAN.md
+FINAL_SUBMISSION_CHECKLIST.md
+
+# --- Optional extras kept locally only --------------------------------
+Dockerfile
+app/
+
+# --- Final deliverables go to Blackboard, not GitHub ------------------
+Project_Report.docx
+Project_Presentation.pptx
+Project_Report_academic.docx
+Project_Presentation_academic.pptx
+
+# --- Other coursework, unrelated to this submission -------------------
+DE_Project_Global_Health_Economics.ipynb
+*_old.docx
+*_old.pptx
+*.bak
