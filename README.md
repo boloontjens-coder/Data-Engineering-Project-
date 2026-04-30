@@ -40,7 +40,7 @@ small, real dataset.
 
 ## Pipeline
 
-1. **Ingest** — TMDb (`requests`), REST Countries (`requests`), Google News RSS (`feedparser` + `BeautifulSoup`).
+1. **Ingest** — TMDb (`requests`), REST Countries (`requests`), Google News RSS (`requests` + `BeautifulSoup`).
 2. **Clean** — Regular expressions (`re`) and `pandas` for date parsing, title normalisation, whitespace, and ASCII transliteration.
 3. **Store** — SQLite three-table schema (`countries`, `movies`, `reviews`) with INNER JOIN, GROUP BY / HAVING, and nested SELECT queries.
 4. **Compute** — Apache Spark DataFrame (`groupBy`, `Window` + `rank`).

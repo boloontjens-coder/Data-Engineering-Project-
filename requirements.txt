@@ -9,7 +9,6 @@ matplotlib>=3.7
 # ----- Ingestion ----------------------------------------------------------
 requests>=2.31
 beautifulsoup4>=4.12
-feedparser>=6.0
 lxml>=4.9
 
 # ----- Distributed computing ----------------------------------------------
