@@ -132,8 +132,8 @@ PySpark requires a Java runtime. If you do not have one,
   only weakly aligned in this sample.
 - Drama is the highest-centrality node in the genre co-occurrence network
   on all three measures.
-- Mean revenue peaks in the summer and late-autumn release windows, which
-  is consistent with studio release strategy.
+- Mean revenue peaks in April and December in this sample, with August
+  the weakest month. The "summer tentpole" pattern is not visible here.
 - The news-headline sentiment signal is weakly positive but tentative
   given the small per-film sample.
 
